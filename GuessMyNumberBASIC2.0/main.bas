@@ -7,7 +7,7 @@
 60 print"error! please submit an issue on thevaultbasic2.0 repository":stop
 70 print"too small! try a larger number.":goto 30
 80 print"too large! try a smaller number.":goto 30
-90 print"congratulations! you guessed the right number in"ug-mg" guesses!:print"play again? (y/n)"
+90 print"congratulations! you guessed the right number in"ug-mg" guesses!":print"play again? (y/n)"
 100 inputk$:ifk$=""then100
 110 ifk$="y"then 10
 120 ifk$="n"then print"{clear}":poke 53281,6:poke 53280,14:poke 646,14:stop
