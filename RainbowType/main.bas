@@ -6,4 +6,4 @@
 60 if k$="{f3}"then print"{clear}":k$=""
 70 poke 646,x:print k$;
 80 next:goto 30
-100 print"{clear}":poke 53281,6:poke 53280,14:poke 646,14:?k$
+100 print"{clear}":poke 53281,6:poke 53280,14:poke 646,14
